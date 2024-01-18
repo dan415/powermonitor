@@ -1,0 +1,11 @@
+[Unit]
+Description=Script for controlling the power of the device
+
+[Service]
+User=dani
+WorkingDirectory=/home/dani/proyectos/Python/powermonitor
+ExecStart=/home/dani/anaconda3/envs/powermonitor/bin/python /home/dani/proyectos/Python/powermonitor/monitorer.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

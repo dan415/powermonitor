@@ -1,0 +1,10 @@
+{
+  "ALWAYS_ON": false,
+  "SLEEP_TIME": 60,
+  "INIT_WAIT_TIME": 120,
+  "MAX_RETRIES": 5,
+  "GPU_PROCESS_THRESHOLD": 1,
+  "DEVICE_NAME": "",
+  "HOLD": false
+
+}
